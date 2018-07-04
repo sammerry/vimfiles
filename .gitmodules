@@ -31,4 +31,7 @@
 [submodule "bundle/vim-editorconfig"]
 	path = bundle/vim-editorconfig
 	url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule "bundle/highlightedyank"]
+	path = bundle/highlightedyank
+	url = git@github.com:machakann/vim-highlightedyank.git
 

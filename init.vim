@@ -9,6 +9,7 @@ set directory=$HOME/.config/nvim/tmp/
 " Theme
 colorscheme afterglow
 
+set inccommand=nosplit
 " Fold Method
 " set foldmethod=syntax
 set foldmethod=indent
