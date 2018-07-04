@@ -1,23 +1,24 @@
 syntax on
 set number
 
+" Enable Pathogen
 execute pathogen#infect()
-
-set directory=$HOME/.config/nvim/tmp/
-
 
 " Theme
 colorscheme afterglow
 
+" Enable live replace
 set inccommand=nosplit
-" Fold Method
-" set foldmethod=syntax
+
+" Fold by indent for contenuety between languages
+" Fold level 99 defaults to open up to 99 fold depth
 set foldmethod=indent
 set foldlevel=99
 
 " NERDTree Conf
 let mapleader = ","
 let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
 let NERDTreeIgnore=['\.pyc$', '\.rbc$', '\~$']
 map <Leader>n :NERDTreeToggle<CR>
 
