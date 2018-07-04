@@ -7,6 +7,11 @@ execute pathogen#infect()
 " Theme
 colorscheme afterglow
 
+" Fold Method
+" set foldmethod=syntax
+set foldmethod=indent
+set foldlevel=99
+
 " NERDTree Conf
 let mapleader = ","
 let NERDTreeShowHidden=1
