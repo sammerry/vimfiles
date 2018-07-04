@@ -35,3 +35,15 @@
 	path = bundle/highlightedyank
 	url = git@github.com:machakann/vim-highlightedyank.git
 
+[submodule "bundle/vim-yarp"]
+	path = bundle/vim-yarp
+	url = git@github.com:roxma/nvim-yarp.git
+[submodule "bundle/vim-hug-neovim"]
+	path = bundle/vim-hug-neovim
+	url = git@github.com:roxma/vim-hug-neovim-rpc.git
+[submodule "bundle/deoplete"]
+	path = bundle/deoplete
+	url = git@github.com:Shougo/deoplete.nvim.git
+[submodule "bundle/deoplete-python"]
+	path = bundle/deoplete-python
+	url = https://github.com/zchee/deoplete-jedi

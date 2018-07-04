@@ -10,6 +10,12 @@ colorscheme afterglow
 " Enable live replace
 set inccommand=nosplit
 
+" Enable deoplete (code completion)
+let g:deoplete#enable_at_startup = 1
+
+" Enable ctags from curent dir to home dir
+set tags+=tags;$HOME
+
 " Fold by indent for contenuety between languages
 " Fold level 99 defaults to open up to 99 fold depth
 set foldmethod=indent
