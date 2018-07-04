@@ -34,7 +34,6 @@
 [submodule "bundle/highlightedyank"]
 	path = bundle/highlightedyank
 	url = git@github.com:machakann/vim-highlightedyank.git
-
 [submodule "bundle/vim-yarp"]
 	path = bundle/vim-yarp
 	url = git@github.com:roxma/nvim-yarp.git
@@ -47,3 +46,12 @@
 [submodule "bundle/deoplete-python"]
 	path = bundle/deoplete-python
 	url = https://github.com/zchee/deoplete-jedi
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "bundle/ensime"]
+	path = bundle/ensime
+	url = git@github.com:ensime/ensime-vim.git
+[submodule "bundle/vim-json"]
+	path = bundle/vim-json
+	url = git@github.com:elzr/vim-json.git
