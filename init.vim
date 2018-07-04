@@ -1,6 +1,5 @@
 syntax on
 set number
-set paste
 
 execute pathogen#infect()
 
