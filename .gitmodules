@@ -28,3 +28,7 @@
 [submodule "bundle/commandt"]
 	path = bundle/commandt
 	url = git@github.com:wincent/command-t.git
+[submodule "bundle/vim-editorconfig"]
+	path = bundle/vim-editorconfig
+	url = git@github.com:editorconfig/editorconfig-vim.git
+

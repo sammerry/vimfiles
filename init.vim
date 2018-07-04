@@ -3,6 +3,9 @@ set number
 
 execute pathogen#infect()
 
+set directory=$HOME/.config/nvim/tmp/
+
+
 " Theme
 colorscheme afterglow
 
@@ -34,8 +37,8 @@ noremap <silent> <C-h> <C-w>h
 noremap <silent> <C-l> <C-w>l
 
 " Show non whitespace characters
-:set listchars=eol:~,tab:>-,trail:~,extends:>,precedes:<
-:set list
+set listchars=eol:~,tab:>-,trail:~,extends:>,precedes:<
+set list
 
 " yank to clipboard
 noremap <Leader>y "*y
