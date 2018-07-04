@@ -1,0 +1,27 @@
+[submodule "bundle/vim-groovy"]
+	path = bundle/vim-groovy
+	url = git@github.com:jovandeginste/vim-groovy.git
+[submodule "bundle/vim-sensible"]
+	path = bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/vim-toml"]
+	path = bundle/vim-toml
+	url = git@github.com:cespare/vim-toml.git
+[submodule "bundle/vim-ansible-yaml"]
+	path = bundle/vim-ansible-yaml
+	url = git://github.com/chase/vim-ansible-yaml.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/vim-rust"]
+	path = bundle/vim-rust
+	url = git@github.com:rust-lang/rust.vim.git
+[submodule "bundle/vim-python"]
+	path = bundle/vim-python
+	url = git@github.com:hdima/python-syntax.git
+[submodule "bundle/vim-scala"]
+	path = bundle/vim-scala
+	url = git@github.com:derekwyatt/vim-scala.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = git@github.com:tpope/vim-fugitive.git
