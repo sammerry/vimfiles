@@ -49,9 +49,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
-[submodule "bundle/ensime"]
-	path = bundle/ensime
-	url = git@github.com:ensime/ensime-vim.git
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
@@ -67,3 +64,15 @@
 [submodule "bundle/ale"]
 	path = bundle/ale
 	url = git@github.com:w0rp/ale.git
+[submodule "bundle/lightline-ale"]
+	path = bundle/lightline-ale
+	url = git@github.com:maximbaz/lightline-ale.git
+[submodule "bundle/theme-snow"]
+	path = bundle/theme-snow
+	url = git@github.com:nightsense/snow.git
+[submodule "bundle/theme-zenburn"]
+	path = bundle/theme-zenburn
+	url = git@github.com:jnurmine/Zenburn.git
+[submodule "bundle/deoplete-rust"]
+	path = bundle/deoplete-rust
+	url = git@github.com:sebastianmarkow/deoplete-rust.git

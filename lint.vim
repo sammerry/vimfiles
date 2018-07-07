@@ -9,17 +9,8 @@ let g:ale_set_highlights = 0
 let g:ale_set_loclist = 0
 let g:ale_set_quickfix = 1
 
-" Ale linters
-let g:ale_linters = {
-      \   'ansible': ['ansible-lint'],
-      \   'python': ['autopep8'],
-      \   'rust': ['rustc'],
-      \   'scala': ['scalac'],
-      \ }
+" Check Python files with flake8 and pylint.
+let b:ale_linters = ['flake8', 'scalac', 'shellcheck', 'jq', 'vint']
+" " Fix Python files with autopep8 and yapf.
+let b:ale_fixers = ['autopep8']
 
-let g:ale_fixers = {
-      \   'ansible': ['ansible-lint'],
-      \   'python': ['autopep8'],
-      \   'rust': ['rustc'],
-      \   'scala': ['scalac'],
-      \ }

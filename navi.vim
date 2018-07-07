@@ -29,11 +29,3 @@ nnoremap <M-j> <c-w>j
 nnoremap <M-k> <c-w>k
 nnoremap <M-l> <c-w>l
 
-
-" yank to clipboard
-noremap <Leader>y "*y
-noremap <Leader>Y "+y
-
-" paste from clip board
-noremap <Leader>p "*p
-noremap <Leader>P "+p
