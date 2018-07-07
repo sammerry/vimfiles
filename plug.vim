@@ -1,5 +1,3 @@
-" Enable deoplete (code completion)
-let g:deoplete#enable_at_startup = 1
 
 " NERDTree Conf
 let mapleader = ","
