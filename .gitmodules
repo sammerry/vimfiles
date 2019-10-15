@@ -40,12 +40,6 @@
 [submodule "bundle/vim-hug-neovim"]
 	path = bundle/vim-hug-neovim
 	url = git@github.com:roxma/vim-hug-neovim-rpc.git
-[submodule "bundle/deoplete"]
-	path = bundle/deoplete
-	url = git@github.com:Shougo/deoplete.nvim.git
-[submodule "bundle/deoplete-python"]
-	path = bundle/deoplete-python
-	url = https://github.com/zchee/deoplete-jedi
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/vim-syntastic/syntastic.git
@@ -61,18 +55,21 @@
 [submodule "bundle/gutentags"]
 	path = bundle/gutentags
 	url = git@github.com:ludovicchabant/vim-gutentags.git
-[submodule "bundle/ale"]
-	path = bundle/ale
-	url = git@github.com:w0rp/ale.git
-[submodule "bundle/lightline-ale"]
-	path = bundle/lightline-ale
-	url = git@github.com:maximbaz/lightline-ale.git
 [submodule "bundle/theme-snow"]
 	path = bundle/theme-snow
 	url = git@github.com:nightsense/snow.git
 [submodule "bundle/theme-zenburn"]
 	path = bundle/theme-zenburn
 	url = git@github.com:jnurmine/Zenburn.git
-[submodule "bundle/deoplete-rust"]
-	path = bundle/deoplete-rust
-	url = git@github.com:sebastianmarkow/deoplete-rust.git
+[submodule "bundle/indentLine"]
+	path = bundle/indentLine
+	url = git@github.com:Yggdroot/indentLine.git
+[submodule "bundle/vim-capnp"]
+	path = bundle/vim-capnp
+	url = https://github.com/cstrahan/vim-capnp.git
+[submodule "bundle/vim-coc"]
+	path = bundle/vim-coc
+	url = https://github.com/neoclide/coc.nvim.git
+[submodule "bundle/vim-rhubarb"]
+	path = bundle/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git

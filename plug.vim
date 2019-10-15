@@ -1,14 +1,28 @@
-" Disable the candidates in Comment/String syntaxes.
-call deoplete#custom#source('_',
-            \ 'disabled_syntaxes', ['Comment', 'String'])
+" coc.vim code completion
+"
+" Use tab for trigger completion with characters ahead and navigate.
+" Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
-" Deoplete Racer
-let g:deoplete#sources#rust#racer_binary=systemlist('which racer')[0]
-let rustc_root = systemlist('rustc --print sysroot')[0]
-let rustc_src_dir = rustc_root . '/lib/rustlib/src/rust/src'
-if isdirectory(rustc_src_dir)
-    let g:deoplete#sources#rust#rust_source_path = rustc_src_dir
-endif
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+" Use K to show documentation in preview window
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  else
+    call CocAction('doHover')
+  endif
+endfunction
 
 " NERDTree Conf
 let mapleader = ","
