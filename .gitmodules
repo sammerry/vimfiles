@@ -40,9 +40,6 @@
 [submodule "bundle/vim-hug-neovim"]
 	path = bundle/vim-hug-neovim
 	url = git@github.com:roxma/vim-hug-neovim-rpc.git
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "bundle/vim-json"]
 	path = bundle/vim-json
 	url = git@github.com:elzr/vim-json.git
@@ -52,9 +49,6 @@
 [submodule "bundle/lightline"]
 	path = bundle/lightline
 	url = git@github.com:itchyny/lightline.vim.git
-[submodule "bundle/gutentags"]
-	path = bundle/gutentags
-	url = git@github.com:ludovicchabant/vim-gutentags.git
 [submodule "bundle/theme-snow"]
 	path = bundle/theme-snow
 	url = git@github.com:nightsense/snow.git
